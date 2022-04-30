@@ -1,4 +1,10 @@
 .fade-in {
+	opacity: 0;
+	-webkit-transition: all 1s ease;
+	transition: all 1s ease;
+}
+.fade-in.appear{
 	opacity: 1;
-	transition: opacity 250ms ease-in;
+	-webkit-transition: all 1s ease;
+	transition: all 1s ease;
 }
