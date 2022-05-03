@@ -1,3 +1,4 @@
+if (window.innerWidth > 1000) {
 $(window).on("load",function() {
   function fade() {
       var animation_height = $(window).innerHeight() * 0.5;
@@ -32,4 +33,4 @@ $(window).on("load",function() {
   $('.fade').css( 'opacity', 0 );
   fade();
   $(window).scroll(function() {fade();});
-});
+});}
